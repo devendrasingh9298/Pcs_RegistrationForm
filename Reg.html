@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <title>User Registration</title>
+    <script src="./Reg.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-div">
+        <div class="section-1"></div>
+        <div class="section-2">
+            <p>Sign Up</p>
+            
+            <label id="label-1">Full Name </label><br>          
+            <input id="name" type="text" placeholder="Name..." onchange="Name()" /><span id="name-span"></span>
+            <br><br>
+            <label id="label-2">Email </label><br>
+            <input id="email" type="email" placeholder="Email address..." onchange="validateemail()"/><span id="email-span"></span>
+            <br><br>
+            <label id="label-3">Username</label><br>
+            <input id="user" type="text" placeholder="Username..." onchange="User()" /><br><span id="user-span"></span>
+            <br><br>
+            <label id="label-4">Password</label><br>
+            <input id="password" type="password" placeholder="**************" onchange="Password()" /><br><span id="password-span"></span>
+            <br><br> 
+            <label id="label-5">Repeat Password</label><br>
+            <input id="repeat-password" type="password" placeholder="**************" onchange="RepPassword()" /><span id="rep-password-span"></span>
+            <br><br><br>
+            <input id="checkbox" type="checkbox" /><span id="span-1">I agree to the</span>&nbsp;<span id="span-2">Terms of User</span><span id="checkbox-span"></span>          
+            <br><br><br>
+            <button id="signup" onclick="Submit()">Sign Up</button>
+            <button id="signin" onclick="" >Sign in &#8594;</button>
+        
+        </div>
+    </div>
+</body>
+</html>

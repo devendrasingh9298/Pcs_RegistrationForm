@@ -1,0 +1,199 @@
+body{
+    background-color: rgb(179, 179, 179);
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+}
+.section-1{
+    width: 900px;
+    height: 700px;
+    background-image: url('./img1.jpg');
+}
+.section-2{
+    width: 700px;
+    height: 700px;
+    background-color: white;
+}
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 50px 0px 40px 150px;
+}
+#label-1{
+    margin-left:150px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+#name{
+    width: 300px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 150px;
+    border: 1px solid gray;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    font-size: 15px;    
+    color: gray;
+}
+#label-2{
+    margin-left:150px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+#email{
+    width: 300px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 150px;
+    border: 1px solid gray;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    font-size: 15px;    
+    color: gray;
+}
+#label-3{
+    margin-left:150px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+#user{
+    width: 300px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 150px;
+    border: 1px solid gray;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    font-size: 15px;    
+    color: gray;
+}
+#label-4{
+    margin-left:150px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+#password{
+    width: 300px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 150px;
+    border: 1px solid gray;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    font-size: 15px;    
+    color: gray; 
+}
+#label-5{
+    margin-left:150px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+#Repeat-Password{
+    width: 300px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 150px;
+    border: 1px solid gray;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    font-size: 15px;    
+    color: gray; 
+}
+#checkbox{
+    margin-left:150px;
+    color: gray;
+}
+#span-1{
+font-size: 15px;
+font-weight: 400;
+font-family: Arial, Helvetica, sans-serif;
+color: gray;
+}
+#span-2{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;   
+}
+#signup{
+    margin-left: 150px; 
+    width: 180px;
+    height: 40px;
+    border:none;
+    outline: none;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius:50px;
+    color: white;
+    background: linear-gradient(0deg, rgba(195,34,140,1) 0%, rgba(215,45,253,1) 100%);
+
+}
+#signin{
+    margin-left: 360px; 
+    width: 180px;
+    height: 40px;
+    margin-top: -40px;
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+#signin:hover{
+    margin-left: 360px; 
+    width: 180px;
+    height: 40px;
+    margin-top: -40px;
+    border:none;
+    outline: none;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius:50px;
+    color: white;
+    background: linear-gradient(0deg, rgba(195,34,140,1) 0%, rgba(215,45,253,1) 100%);
+
+}
+
+/* Validation Styles*/
+#name-span{
+    visibility: hidden;
+    padding-left: 20px;
+}
+#email-span{
+    visibility: hidden;
+    padding-left: 20px;
+}
+#user-span{
+    margin-left: 130px; 
+    visibility: hidden;
+    padding-left: 20px;
+}
+#password-span{
+    margin-left: 130px; 
+    visibility: hidden;
+    padding-left: 20px;
+}
+#rep-password-span{
+    visibility: hidden;
+    padding-left: 20px;
+}
+#checkbox-span{
+    visibility: hidden;
+    padding-left: 20px;
+}
